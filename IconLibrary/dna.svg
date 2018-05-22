@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.3181903"
-     inkscape:cx="255.69301"
-     inkscape:cy="465.71657"
+     inkscape:cx="261.97759"
+     inkscape:cy="562.49591"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -118,22 +118,22 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <rect
-       style="fill:#000080;fill-opacity:0.85350318;fill-rule:evenodd;stroke:#000080;stroke-width:0.98075891;stroke-opacity:1"
+       style="fill:#000080;fill-opacity:1;fill-rule:nonzero;stroke:#000080;stroke-width:1.07721221;stroke-opacity:1"
        id="rect4264"
-       width="91.122971"
-       height="20.626308"
-       x="470.56448"
-       y="208.75734"
-       ry="0.10600949"
-       transform="matrix(0.78278523,0.62229196,-0.59152895,0.80628376,0,0)" />
+       width="100.62804"
+       height="22.53245"
+       x="475.84195"
+       y="217.22073"
+       ry="0.11580616"
+       transform="matrix(0.79504693,0.60654793,-0.60733789,0.79444363,0,0)" />
     <rect
-       style="fill:#000080;fill-opacity:0.85350318;fill-rule:evenodd;stroke:#000080;stroke-width:0.9914059;stroke-opacity:1"
+       style="fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:1.05557001;stroke-opacity:1"
        id="rect4264-6"
-       width="92.385109"
-       height="20.788631"
-       x="32.025108"
-       y="555.75598"
-       ry="0.10684375"
-       transform="matrix(-0.78953975,0.61369943,0.6001739,0.79986954,0,0)" />
+       width="99.707169"
+       height="21.83597"
+       x="56.111881"
+       y="560.96936"
+       ry="0.11222658"
+       transform="matrix(-0.81882396,0.57404471,0.6395455,0.76875325,0,0)" />
   </g>
 </svg>
