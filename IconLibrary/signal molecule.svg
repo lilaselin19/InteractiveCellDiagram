@@ -12,12 +12,12 @@
    width="210mm"
    height="297mm"
    viewBox="0 0 744.09448819 1052.3622047"
-   id="svg2"
+   id="svg4145"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="receptorprotein.svg">
+   sodipodi:docname="signal molecule.svg">
   <defs
-     id="defs4" />
+     id="defs4147" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="28.571429"
-     inkscape:cy="862.85714"
+     inkscape:cx="375"
+     inkscape:cy="520"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -35,21 +35,16 @@
      inkscape:window-height="691"
      inkscape:window-x="0"
      inkscape:window-y="1"
-     inkscape:window-maximized="1"
-     inkscape:object-paths="false"
-     inkscape:snap-intersection-paths="false"
-     inkscape:object-nodes="false"
-     inkscape:snap-smooth-nodes="false"
-     inkscape:snap-midpoints="false" />
+     inkscape:window-maximized="1" />
   <metadata
-     id="metadata7">
+     id="metadata4150">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -58,8 +53,9 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:#ba00a2;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
-       d="M 112.81055 85.689453 C 82.904403 102.93767 62.857422 135.22083 62.857422 172.36133 L 62.857422 363.96289 C 62.857422 419.36289 107.45742 463.96289 162.85742 463.96289 L 165.76172 463.96289 C 221.16172 463.96289 265.76172 419.36289 265.76172 363.96289 L 265.76172 172.36133 C 265.76172 136.68889 247.26666 105.49965 219.30664 87.806641 L 162.85742 166.64844 L 112.81055 85.689453 z "
-       id="rect3334" />
+       style="fill:#ff7f2a;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 157.45079,388.95604 159.2857,-2.85715 -86.4286,120.7143 z"
+       id="path4142"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
