@@ -1,5 +1,6 @@
-// initialize SVG.js
-var draw = SVG('drawing')
-
-// draw pink square
-draw.rect(100, 100).move(100, 50).fill('#f06')
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "#FF0000";
+ctx.beginPath();
+ctx.arc(500,300,200,0,2*Math.PI);
+ctx.stroke();
