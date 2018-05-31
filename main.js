@@ -3,12 +3,12 @@ var ctx = canvas.getContext("2d");
 
 //cytoplasm
 ctx.fillStyle = "#fff2d3";
-roundRect(ctx, 100, 100, 800, 300, 100, 1);
+roundRect(ctx, 50, 100, 800, 300, 100, 1);
 
 //chromatin
 var img = new Image();
 img.onload = function() {
-    ctx.drawImage(img, 0, 0);
+    ctx.drawImage(img, -120, -375, 1500, 1500);
 }
 img.src = "IconLibrary/chromatin.svg";
 
@@ -33,6 +33,13 @@ img3.onload = function() {
     ctx.drawImage(img3, 750, 150, 25, 25);
 }
 img3.src = "IconLibrary/ribosome.svg";
+
+//flagellum
+var img4 = new Image();
+img4.onload = function() {
+    ctx.drawImage(img4, 250, 225, 25, 25);
+}
+img4.src = "IconLibrary/flagellum.svg";
 
 
 function roundRect(ctx, x, y, width, height, radius, fill, stroke) {
