@@ -5,13 +5,34 @@ var ctx = canvas.getContext("2d");
 ctx.fillStyle = "#fff2d3";
 roundRect(ctx, 100, 100, 800, 300, 100, 1);
 
-
 //chromatin
 var img = new Image();
 img.onload = function() {
     ctx.drawImage(img, 0, 0);
 }
-img.src = "http://upload.wikimedia.org/wikipedia/commons/d/d2/Svg_example_square.svg";
+img.src = "IconLibrary/chromatin.svg";
+
+//plasmid
+var img2 = new Image();
+img2.onload = function() {
+    ctx.drawImage(img2, 175, 100, 100, 100);
+    ctx.drawImage(img2, 250, 300, 100, 100);
+    ctx.drawImage(img2, 550, 320, 100, 100);
+    ctx.drawImage(img2, 700, 200, 100, 100);
+}
+img2.src = "IconLibrary/plasmid.svg";
+
+//ribosome
+var img3 = new Image();
+img3.onload = function() {
+    ctx.drawImage(img3, 250, 225, 25, 25);
+    ctx.drawImage(img3, 500, 350, 25, 25);
+    ctx.drawImage(img3, 325, 125, 25, 25);
+    ctx.drawImage(img3, 150, 320, 25, 25);
+    ctx.drawImage(img3, 700, 300, 25, 25);
+    ctx.drawImage(img3, 750, 150, 25, 25);
+}
+img3.src = "IconLibrary/ribosome.svg";
 
 
 function roundRect(ctx, x, y, width, height, radius, fill, stroke) {
