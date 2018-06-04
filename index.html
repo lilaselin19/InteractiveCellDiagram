@@ -11,14 +11,25 @@
 	
 	<div id="canvas-container">
 
-		<canvas id="myCanvas" width="1000" height="500"
-		style="border:1px solid #c3c3c3;">
-
-	</canvas>
-
 	</div>
 
 	<script src="main.js"></script>
+
+	<img style="position:absolute; top:0 px; left:0 px" onmouseenter="bigImg(this)" onmouseleave="normalImg(this)" border="0" src="IconLibrary/chromatin.svg" alt="Chromatin" width="200" height="200">
+
+	<img onmouseenter="bigImg(this)" onmouseleave="normalImg(this)" border="0" src="IconLibrary/ribosome.svg" alt="Smiley" width="32" height="32">
+
+	<script>
+	function bigImg(x) {
+	    x.style.height = "300px";
+	    x.style.width = "300px";
+	}
+
+	function normalImg(x) {
+	    x.style.height = "200px";
+	    x.style.width = "200px";
+	}
+	</script>
 
 </body>
 
