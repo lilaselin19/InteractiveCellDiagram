@@ -10,9 +10,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 744.09448819 1052.3622047"
+   width="56mm"
+   height="58mm"
+   viewBox="0 0 198.42508 205.51169"
    id="svg4648"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -35,16 +35,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.8101934"
-     inkscape:cx="394.02012"
-     inkscape:cy="619.55133"
+     inkscape:zoom="0.9050967"
+     inkscape:cx="360.54925"
+     inkscape:cy="259.0659"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1280"
-     inkscape:window-height="691"
-     inkscape:window-x="43"
-     inkscape:window-y="37"
+     inkscape:window-width="1168"
+     inkscape:window-height="689"
+     inkscape:window-x="58"
+     inkscape:window-y="0"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata4653">
@@ -61,10 +61,12 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(0,-846.851)">
     <path
-       style="fill:#3939ff;fill-opacity:1;fill-rule:nonzero;stroke:#00008a;stroke-width:4.4;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 265.625 332.04883 A 96.875 100 0 0 0 168.75 432.04883 A 96.875 100 0 0 0 265.625 532.04883 A 96.875 100 0 0 0 362.5 432.04883 A 96.875 100 0 0 0 265.625 332.04883 z M 265.625 358.61133 A 70.3125 71.875 0 0 1 335.9375 430.48633 A 70.3125 71.875 0 0 1 265.625 502.36133 A 70.3125 71.875 0 0 1 195.3125 430.48633 A 70.3125 71.875 0 0 1 265.625 358.61133 z "
-       id="path5196" />
+       style="fill:#3939ff;fill-opacity:1;fill-rule:nonzero;stroke:#00008a;stroke-width:4.4000001;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 100.44928,849.67308 a 96.875,100 0 0 0 -96.8750008,100 96.875,100 0 0 0 96.8750008,99.99992 96.875,100 0 0 0 96.875,-99.99992 96.875,100 0 0 0 -96.875,-100 z m 0,26.5625 a 70.3125,71.875 0 0 1 70.3125,71.875 70.3125,71.875 0 0 1 -70.3125,71.87492 70.3125,71.875 0 0 1 -70.312501,-71.87492 70.3125,71.875 0 0 1 70.312501,-71.875 z"
+       id="path5196"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
