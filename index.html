@@ -15,19 +15,18 @@
 
 	<script src="main.js"></script>
 
-	<img style="position:absolute; top:0 px; left:0 px" onmouseenter="bigImg(this)" onmouseleave="normalImg(this)" border="0" src="IconLibrary/chromatin.svg" alt="Chromatin" width="200" height="200">
+	<img style="position:absolute; top:0px; left:125px" onmouseenter="bigImg(this)" onmouseleave="normalImg(this)" border="0" src="IconLibrary/cytoplasm.svg" alt="Cytoplasm" width="1000" height="500">
 
-	<img onmouseenter="bigImg(this)" onmouseleave="normalImg(this)" border="0" src="IconLibrary/ribosome.svg" alt="Smiley" width="32" height="32">
+
+	<img style="position:absolute; top:125px; left:500px" onmouseenter="bigImg(this)" onmouseleave="normalImg(this)" border="0" src="IconLibrary/chromatin.svg" alt="Chromatin" width="250" height="250">
 
 	<script>
 	function bigImg(x) {
-	    x.style.height = "300px";
-	    x.style.width = "300px";
+		//add zoomed in svg
 	}
 
 	function normalImg(x) {
-	    x.style.height = "200px";
-	    x.style.width = "200px";
+	    // remove zoomed in svg
 	}
 	</script>
 
