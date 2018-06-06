@@ -2,7 +2,7 @@
 
 <html lang="en">
 <head>
-	<link rel="stylesheet" type="text/css" href="main.css">
+<!-- 	<link rel="stylesheet" type="text/css" href="main.css"> -->
 	<title>Interactive Cell Diagram</title>
 </head>
 
@@ -24,7 +24,7 @@
 	<img style="position:absolute; top:350px; left:450px" onmouseenter="translation(this)" onmouseleave="normalImg(this)" border="0" src="IconLibrary/ribosome.svg" alt="Ribosome" width="20" height="20">
 
 	<svg height="1000" width="1000">
-  	<circle cx="150" cy="450" r="100" stroke="black" stroke-width="1" fill=rgb(193,213,231) />
+  	<circle cx="150" cy="450" r="125" stroke="black" stroke-width="1" fill=rgb(255,255,255) />
 	</svg>
 
 
@@ -52,17 +52,17 @@
 	
 	function cellMembrane(x) {
  		drawCell();
- 		document.write("<img style=\"position:absolute; top:285px; left:-310px\" border=\"0\" src=\"IconLibrary/plasmaMembraneZoom.svg\" alt=\"Zoomed in Plasma Membrane\" width=\"1000\" height=\"500\">");
+ 		document.write("<img style=\"position:absolute; top:330px; left:30px\" border=\"0\" src=\"IconLibrary/plasmaMembraneZoom.svg\" alt=\"Zoomed in Plasma Membrane\" width=\"250\" height=\"250\">");
 	}
 
 	function chromosome(x) {
  		drawCell();
- 		document.write("<img style=\"position:absolute; top:285px; left:-310px\" border=\"0\" src=\"IconLibrary/chromosomeZoom.svg\" alt=\"Zoomed in Chromosome\" width=\"1000\" height=\"500\">");
-
+ 		document.write("<img style=\"position:absolute; top:330px; left:30px\" border=\"0\" src=\"IconLibrary/chromosomeZoom.svg\" alt=\"Zoomed in Chromosome\" width=\"250\" height=\"250\">");
 	}
 
 	function translation(x) {
-		//add zoomed in svg
+ 		drawCell();
+ 		document.write("<img style=\"position:absolute; top:330px; left:30px\" border=\"0\" src=\"IconLibrary/translationZoom.svg\" alt=\"Zoomed in Ribosome\" width=\"250\" height=\"250\">");
 	}
 
 	function normalImg(x) {
