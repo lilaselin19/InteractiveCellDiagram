@@ -8,49 +8,8 @@
 
 <body>
 	<div id = "header"> <h1>Interactive Cell Diagram</h1> </div>
-	
-	<div id="canvas-container">
 
-	</div>
-
-	<script src="main.js"></script>
-
-	<img style="position:absolute; top:0px; left:120px" border="0" src="IconLibrary/cytoplasm.svg" alt="Cytoplasm" width="1000" height="500">
-
-	<img style="position:absolute; top:58px; left:319px" onmouseenter="cellMembrane(this)" onmouseleave="normalImg(this)" border="0" src="IconLibrary/cellMembrane.svg" alt="Cell Membrane" width="620" height="390">
-
-
-	<img style="position:absolute; top:125px; left:500px" onmouseenter="chromosome(this)" onmouseleave="normalImg(this)" border="0" src="IconLibrary/chromatin.svg" alt="Chromatin" width="250" height="250">
-
-	<img style="position:absolute; top:125px; left:500px" onmouseenter="translation(this)" onmouseleave="normalImg(this)" border="0" src="IconLibrary/ribosome.svg" alt="Ribosome" width="20" height="20">
-
-	<img style="position:absolute; top:300px; left:800px" onmouseenter="translation(this)" onmouseleave="normalImg(this)" border="0" src="IconLibrary/ribosome.svg" alt="Ribosome" width="20" height="20">
-
-	<img style="position:absolute; top:350px; left:450px" onmouseenter="translation(this)" onmouseleave="normalImg(this)" border="0" src="IconLibrary/ribosome.svg" alt="Ribosome" width="20" height="20">
-
-
-
-<canvas id="myCanvas" width="0" height="0" style="border:1px solid #d3d3d3;">
-</canvas>
-
-	<script>
-	
-	function cellMembrane(x) {
- 		document.write("<img style=\"position:absolute; top:0px; left:120px\" border=\"0\" src=\"IconLibrary/plasmaMembraneZoom.svg\" alt=\"Zoomed in Plasma Membrane\" width=\"1000\" height=\"500\">");
-	}
-
-	function chromosome(x) {
-
-	}
-
-	function translation(x) {
-		//add zoomed in svg
-	}
-
-	function normalImg(x) {
-	    // remove zoomed in svg
-	}
-	</script>
+	<a href="bacteria.html">Bacterial Cell</a>
 
 </body>
 
