@@ -12,7 +12,7 @@
 
 	<a style="position:absolute; top:30px; left:30px" href="index.html">Main Menu</a>
 
-	<img style="position:absolute; top:0px; left:120px" border="0" src="IconLibrary/cytoplasmB.svg" alt="Cytoplasm" width="1000" height="500">
+	<img style="position:absolute; top:0px; left:120px" onmouseenter="cytoplasm(this)" onmouseleave="normalImg(this)" border="0" src="IconLibrary/cytoplasmB.svg" alt="Cytoplasm" width="1000" height="500">
 
 	<img style="position:absolute; top:58px; left:319px" onmouseenter="cellMembrane(this)" onmouseleave="normalImg(this)" border="0" src="IconLibrary/cellMembraneB.svg" alt="Cell Membrane" width="620" height="390">
 
@@ -66,19 +66,26 @@
 		document.write("<img style=\"position:absolute; top:350px; left:450px\" onmouseenter=\"translation(this)\" onmouseleave=\"normalImg(this)\" border=\"0\" src=\"IconLibrary/ribosome.svg\" alt=\"Ribosome\" width=\"20\" height=\"20\">");
 	}
 	
+	function cytoplasm(x) {
+ 		drawCell();
+		document.write("<svg height=\"1000\" width=\"1000\">");
+  		document.write("<circle cx=\"150\" cy=\"450\" r=\"125\" stroke=\"black\" stroke-width=\"1\" fill=rgb(255,255,255) />");
+		document.write("</svg>");
+	}
+
 	function cellMembrane(x) {
  		drawCell();
- 		document.write("<img style=\"position:absolute; top:330px; left:30px\" border=\"0\" src=\"IconLibrary/plasmaMembraneZoom.svg\" alt=\"Zoomed in Plasma Membrane\" width=\"250\" height=\"250\">");
+ 		document.write("<img style=\"position:absolute; top:333px; left:33px\" border=\"0\" src=\"IconLibrary/plasmaMembraneZoom.svg\" alt=\"Zoomed in Plasma Membrane\" width=\"250\" height=\"250\">");
 	}
 
 	function chromosome(x) {
  		drawCell();
- 		document.write("<img style=\"position:absolute; top:330px; left:30px\" border=\"0\" src=\"IconLibrary/chromosomeZoom.svg\" alt=\"Zoomed in Chromosome\" width=\"250\" height=\"250\">");
+ 		document.write("<img style=\"position:absolute; top:333px; left:33px\" border=\"0\" src=\"IconLibrary/chromosomeZoom.svg\" alt=\"Zoomed in Chromosome\" width=\"250\" height=\"250\">");
 	}
 
 	function translation(x) {
  		drawCell();
- 		document.write("<img style=\"position:absolute; top:330px; left:30px\" border=\"0\" src=\"IconLibrary/translationZoom.svg\" alt=\"Zoomed in Ribosome\" width=\"250\" height=\"250\">");
+ 		document.write("<img style=\"position:absolute; top:333px; left:33px\" border=\"0\" src=\"IconLibrary/translationZoom.svg\" alt=\"Zoomed in Ribosome\" width=\"250\" height=\"250\">");
 	}
 
 	function normalImg(x) {
