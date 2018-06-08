@@ -2,15 +2,14 @@
 
 <html lang="en">
 <head>
-<!-- 	<link rel="stylesheet" type="text/css" href="main.css"> -->
+	<link rel="stylesheet" type="text/css" href="main.css">
 	<title>Interactive Cell Diagram</title>
 </head>
 
 <body>
-
 	<script src="main.js"></script>
 
-	<a style="position:absolute; top:30px; left:30px" href="index.html">Main Menu</a>
+	<div id="return"> <a href="index.html">Main Menu</a> </div>
 
 	<img style="position:absolute; top:58px; left:370px" onmouseenter="normalImg()" border="0" src="IconLibrary/cytoplasmA.svg" alt="Cytoplasm" width="450" height="450">
 
@@ -36,16 +35,13 @@
   	<circle cx="150" cy="450" r="125" stroke="black" stroke-width="1" fill=rgb(255,255,255) />
 	</svg>
 
-
-
-	<canvas id="myCanvas" width="0" height="0" style="border:1px solid #d3d3d3;">
-	</canvas>
-
 	<script>
 
 	function drawCell() {
 
-		document.write("<a style=\"position:absolute; top:30px; left:30px\" href=\"index.html\">Main Menu</a>");
+		document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"main.css\">");
+
+		document.write("<div id=\"return\"> <a href=\"index.html\">Main Menu</a> </div>");
 
 		document.write("<img style=\"position:absolute; top:58px; left:370px\" border=\"0\" src=\"IconLibrary/cytoplasmA.svg\" alt=\"Cytoplasm\" width=\"450\" height=\"450\">");
 
@@ -69,7 +65,7 @@
 	}
 	
 	function cellMembrane() {
- 		drawCell();
+		drawCell();
  		document.write("<img style=\"position:absolute; top:330px; left:30px\" border=\"0\" src=\"IconLibrary/plasmaMembraneZoom.svg\" alt=\"Zoomed in Plasma Membrane\" width=\"250\" height=\"250\">");
 	}
 

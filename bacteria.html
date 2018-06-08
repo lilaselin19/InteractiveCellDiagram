@@ -2,20 +2,18 @@
 
 <html lang="en">
 <head>
-<!-- 	<link rel="stylesheet" type="text/css" href="main.css"> -->
+	<link rel="stylesheet" type="text/css" href="main.css">
 	<title>Interactive Cell Diagram</title>
 </head>
 
 <body>
-
 	<script src="main.js"></script>
 
-	<a style="position:absolute; top:30px; left:30px" href="index.html">Main Menu</a>
+	<div id="return"> <a href="index.html">Main Menu</a> </div>
 
 	<img style="position:absolute; top:0px; left:120px" onmouseenter="cytoplasm(this)" onmouseleave="normalImg(this)" border="0" src="IconLibrary/cytoplasmB.svg" alt="Cytoplasm" width="1000" height="500">
 
 	<img style="position:absolute; top:58px; left:319px" onmouseenter="cellMembrane(this)" onmouseleave="normalImg(this)" border="0" src="IconLibrary/cellMembraneB.svg" alt="Cell Membrane" width="620" height="390">
-
 
 	<img style="position:absolute; top:125px; left:500px" onmouseenter="chromosome(this)" onmouseleave="normalImg(this)" border="0" src="IconLibrary/chromatin.svg" alt="Chromatin" width="250" height="250">
 
@@ -35,16 +33,12 @@
   	<circle cx="150" cy="450" r="125" stroke="black" stroke-width="1" fill=rgb(255,255,255) />
 	</svg>
 
-
-
-<canvas id="myCanvas" width="0" height="0" style="border:1px solid #d3d3d3;">
-</canvas>
-
 	<script>
 
 	function drawCell() {
+		document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"main.css\">");
 
-		document.write("<a style=\"position:absolute; top:30px; left:30px\" href=\"index.html\">Main Menu</a>");
+		document.write("<div id=\"return\"> <a href=\"index.html\">Main Menu</a> </div>");
 
 		document.write("<img style=\"position:absolute; top:0px; left:120px\" border=\"0\" src=\"IconLibrary/cytoplasmB.svg\" alt=\"Cytoplasm\" width=\"1000\" height=\"500\">");
 
