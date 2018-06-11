@@ -37,13 +37,13 @@ a:hover{
 }
 
 #bLink{
-	position:absolute; top:460px; left:220px;
+	position:absolute; top:460px; left:215px;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 	font-size: 25px;
 }
 
 #aLink{
-	position:absolute; top:510px; left:680px;
+	position:absolute; top:510px; left:695px;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 	font-size: 25px;
 }
@@ -51,4 +51,10 @@ a:hover{
 #return{
 	position:absolute; top:30px; left:30px;
 	font-size: 25px;
+}
+
+div#rotation
+{
+-webkit-transform:rotate(45deg); /* Chrome, Safari, Opera */
+transform:rotate(45deg); /* Standard syntax */
 }

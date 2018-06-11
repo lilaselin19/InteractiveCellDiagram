@@ -17,19 +17,23 @@
 
 	<img style="position:absolute; top:130px; left:610px" border="0" onmouseenter="cellMembrane()" onmouseleave="normalImg()" border="0" src="IconLibrary/nuclearMembrane.svg" alt="Nuclear Membrane" width="150" height="150">
 
-	<img style="position:absolute; top:135px; left:615px" onmouseenter="chromosome()" onmouseleave="normalImg()" border="0" src="IconLibrary/chromatin.svg" alt="Chromatin" width="130" height="130">
+	<img style="position:absolute; top:135px; left:620px" onmouseenter="chromosome()" onmouseleave="normalImg()" border="0" src="IconLibrary/chromatin.svg" alt="Chromatin" width="130" height="130">
 
 	<img style="position:absolute; top:125px; left:500px" onmouseenter="translation()" onmouseleave="normalImg()" border="0" src="IconLibrary/ribosome.svg" alt="Ribosome" width="20" height="20">
 
 	<img style="position:absolute; top:400px; left:700px" onmouseenter="translation()" onmouseleave="normalImg()" border="0" src="IconLibrary/ribosome.svg" alt="Ribosome" width="20" height="20">
 
-	<img style="position:absolute; top:350px; left:450px" onmouseenter="translation()" onmouseleave="normalImg()" border="0" src="IconLibrary/ribosome.svg" alt="Ribosome" width="20" height="20">
+	<img style="position:absolute; top:300px; left:420px" onmouseenter="translation()" onmouseleave="normalImg()" border="0" src="IconLibrary/ribosome.svg" alt="Ribosome" width="20" height="20">
 
-	<img style="position:absolute; top:430px; left:550px" border="0" onmouseenter="mitochondrionZoom()" onmouseleave="normalImg()" src="IconLibrary/mitochondrion.svg" alt="Mitochondrion" width="70" height="70">
+	<img style="position:absolute; top:420px; left:570px" border="0" onmouseenter="mitochondrionZoom()" onmouseleave="normalImg()" src="IconLibrary/mitochondrion.svg" alt="Mitochondrion" width="70" height="70">
 
 	<img style="position:absolute; top:190px; left:420px" border="0" onmouseenter="mitochondrionZoom()" onmouseleave="normalImg()" src="IconLibrary/mitochondrionRotate.svg" alt="Mitochondrion" width="70" height="70" transform="rotate(90)">
 
-	<img style="position:absolute; top:300px; left:620px" border="0" onmouseenter="lysosomeZoom()" onmouseleave="normalImg()" src="IconLibrary/lysosome.svg" alt="Lysosome" width="70" height="70" transform="rotate(90)">
+	<img style="position:absolute; top:300px; left:700px" border="0" onmouseenter="lysosomeZoom()" onmouseleave="normalImg()" src="IconLibrary/lysosome.svg" alt="Lysosome" width="40" height="40" transform="rotate(90)">
+
+	<img style="position:absolute; top:150px; left:460px" onmouseenter="ERZoom()" onmouseleave="normalImg()" border="0" src="IconLibrary/ER.svg" alt="ER" width="200" height="200">
+
+	<div id="rotation"><img style="position:absolute; top:300px; left:730px" onmouseenter="GolgiZoom()" onmouseleave="normalImg()" border="0" src="IconLibrary/GolgiApparatus.svg" alt="Golgi" width="140" height="140"></div>
 
 	<svg height="1000" width="1000">
   	<circle cx="150" cy="450" r="125" stroke="black" stroke-width="1" fill=rgb(193,213,231) />
@@ -49,19 +53,23 @@
 
 		document.write("<img style=\"position:absolute; top:130px; left:610px\" border=\"0\" onmouseenter=\"cellMembrane()\" onmouseleave=\"normalImg()\" border=\"0\" src=\"IconLibrary/nuclearMembrane.svg\" alt=\"Nuclear Membrane\" width=\"150\" height=\"150\">");
 
-		document.write("<img style=\"position:absolute; top:135px; left:615px\" onmouseenter=\"chromosome()\" onmouseleave=\"normalImg()\" border=\"0\" src=\"IconLibrary/chromatin.svg\" alt=\"Chromatin\" width=\"130\" height=\"130\">");
+		document.write("<img style=\"position:absolute; top:135px; left:620px\" onmouseenter=\"chromosome()\" onmouseleave=\"normalImg()\" border=\"0\" src=\"IconLibrary/chromatin.svg\" alt=\"Chromatin\" width=\"130\" height=\"130\">");
 
 		document.write("<img style=\"position:absolute; top:125px; left:500px\" onmouseenter=\"translation()\" onmouseleave=\"normalImg()\" border=\"0\" src=\"IconLibrary/ribosome.svg\" alt=\"Ribosome\" width=\"20\" height=\"20\">");
 
 		document.write("<img style=\"position:absolute; top:400px; left:700px\" onmouseenter=\"translation()\" onmouseleave=\"normalImg()\" border=\"0\" src=\"IconLibrary/ribosome.svg\" alt=\"Ribosome\" width=\"20\" height=\"20\">");
 
-		document.write("<img style=\"position:absolute; top:350px; left:450px\" onmouseenter=\"translation()\" onmouseleave=\"normalImg()\" border=\"0\" src=\"IconLibrary/ribosome.svg\" alt=\"Ribosome\" width=\"20\" height=\"20\">");
+		document.write("<img style=\"position:absolute; top:300px; left:420px\" onmouseenter=\"translation()\" onmouseleave=\"normalImg()\" border=\"0\" src=\"IconLibrary/ribosome.svg\" alt=\"Ribosome\" width=\"20\" height=\"20\">");
 
-		document.write("<img style=\"position:absolute; top:430px; left:550px\" border=\"0\" onmouseenter=\"mitochondrionZoom()\" onmouseleave=\"normalImg()\" src=\"IconLibrary/mitochondrion.svg\" alt=\"Mitochondrion\" width=\"70\" height=\"70\">");
+		document.write("<img style=\"position:absolute; top:420px; left:570px\" border=\"0\" onmouseenter=\"mitochondrionZoom()\" onmouseleave=\"normalImg()\" src=\"IconLibrary/mitochondrion.svg\" alt=\"Mitochondrion\" width=\"70\" height=\"70\">");
 
 		document.write("<img style=\"position:absolute; top:190px; left:420px\" border=\"0\" onmouseenter=\"mitochondrionZoom()\" onmouseleave=\"normalImg()\" src=\"IconLibrary/mitochondrionRotate.svg\" alt=\"Mitochondrion\" width=\"70\" height=\"70\" transform=\"rotate(90)\">");
 
-		document.write("<img style=\"position:absolute; top:300px; left:620px\" border=\"0\" onmouseenter=\"lysosomeZoom()\" onmouseleave=\"normalImg()\" src=\"IconLibrary/lysosome.svg\" alt=\"Lysosome\" width=\"70\" height=\"70\" transform=\"rotate(90)\">");
+		document.write("<img style=\"position:absolute; top:300px; left:700px\" border=\"0\" onmouseenter=\"lysosomeZoom()\" onmouseleave=\"normalImg()\" src=\"IconLibrary/lysosome.svg\" alt=\"Lysosome\" width=\"40\" height=\"40\" transform=\"rotate(90)\">");
+
+		document.write("<img style=\"position:absolute; top:150px; left:460px\" onmouseenter=\"ERZoom()\" onmouseleave=\"normalImg()\" border=\"0\" src=\"IconLibrary/ER.svg\" alt=\"ER\" width=\"200\" height=\"200\">");
+
+		document.write("<div id=\"rotation\"><img style=\"position:absolute; top:300px; left:730px\" onmouseenter=\"GolgiZoom()\" onmouseleave=\"normalImg()\" border=\"0\" src=\"IconLibrary/GolgiApparatus.svg\" alt=\"Golgi\" width=\"140\" height=\"140\"></div>");
 	}
 	
 	function cellMembrane() {
@@ -87,6 +95,16 @@
 	function lysosomeZoom() {
  		drawCell();
  		document.write("<img style=\"position:absolute; top:330px; left:30px\" border=\"0\" src=\"IconLibrary/lysosomeZoom.svg\" alt=\"Zoomed in Lysosome\" width=\"250\" height=\"250\">");
+	}
+
+	function ERZoom() {
+		drawCell();
+ 		document.write("<img style=\"position:absolute; top:330px; left:30px\" border=\"0\" src=\"IconLibrary/lysosomeZoom.svg\" alt=\"Zoomed in Lysosome\" width=\"250\" height=\"250\">");		
+	}
+
+	function GolgiZoom() {
+		drawCell();
+ 		document.write("<img style=\"position:absolute; top:330px; left:30px\" border=\"0\" src=\"IconLibrary/lysosomeZoom.svg\" alt=\"Zoomed in Lysosome\" width=\"250\" height=\"250\">");		
 	}
 
 	function normalImg() {
