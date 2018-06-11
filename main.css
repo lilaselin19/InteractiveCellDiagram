@@ -1,6 +1,6 @@
 body{
   background-color: rgb(193,213,231);
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 h1{
@@ -15,6 +15,7 @@ h3{
 
 a:link{
 	color: blue;
+	font-family: "Times New Roman", Times, serif;
 	text-decoration: none;
 }
 
@@ -43,7 +44,7 @@ a:hover{
 }
 
 #aLink{
-	position:absolute; top:510px; left:695px;
+	position:absolute; top:520px; left:690px;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 	font-size: 25px;
 }
