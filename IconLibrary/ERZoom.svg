@@ -15,7 +15,7 @@
    viewBox="0 0 746.06403 746.06402"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
    sodipodi:docname="ERZoom.svg">
   <defs
      id="defs4">
@@ -55,6 +55,18 @@
        is_visible="true"
        id="path-effect4151"
        effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect4159-7"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect4155-9"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect4151-3"
+       effect="spiro" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -63,16 +75,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="142.46818"
-     inkscape:cy="439.34264"
+     inkscape:zoom="1.979899"
+     inkscape:cx="503.58549"
+     inkscape:cy="584.39726"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="691"
-     inkscape:window-x="354"
-     inkscape:window-y="10"
+     inkscape:window-x="-9"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -86,7 +98,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -107,14 +119,14 @@
        d="M 746.47231,681.20809 A 372.69166,371.26309 0 0 1 373.78064,1052.4712 372.69166,371.26309 0 0 1 1.0889587,681.20809 372.69166,371.26309 0 0 1 373.78064,309.945 372.69166,371.26309 0 0 1 746.47231,681.20809 Z"
        id="path3662" />
     <g
-       transform="matrix(3.3866785,-1.5255078,1.5255078,3.3866785,-1335.7876,-2502.7176)"
-       id="layer1-7"
+       transform="matrix(3.6471513,0,0,3.6471513,53.404246,-2888.1545)"
+       id="layer1-0"
        inkscape:label="Layer 1">
       <circle
          r="8.2072783"
          cy="958.66425"
          cx="22.544819"
-         id="path3376-9"
+         id="path3376"
          style="fill:none;stroke:#ff9955;stroke-width:1.4826051;stroke-miterlimit:4;stroke-dasharray:none" />
       <circle
          r="10.325286"
@@ -171,7 +183,7 @@
          id="path3394"
          style="fill:none;stroke:#ff9955;stroke-width:1.4826051;stroke-miterlimit:4;stroke-dasharray:none" />
       <rect
-         transform="matrix(0.97954361,-0.20123199,0.20123199,0.97954361,0,0)"
+         transform="rotate(-11.609012)"
          ry="6.0714288"
          y="923.48932"
          x="-114.88055"
@@ -180,7 +192,7 @@
          id="rect4253"
          style="fill:none;stroke:#ff9955;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
-         transform="matrix(0.95132015,-0.30820443,0.30820443,0.95132015,-128.34693,136.55725)"
+         transform="rotate(-17.951054,368.11577,474.57705)"
          id="g4287">
         <path
            style="fill:none;stroke:#ff9955;stroke-width:1.79999888;stroke-miterlimit:4;stroke-dasharray:none"
@@ -231,6 +243,59 @@
            sodipodi:open="true"
            d="m -41.625078,873.48333 a 7.167654,3.8374736 0 0 1 2.099289,2.73025 7.167654,3.8374736 0 0 1 -2.143711,2.72034" />
       </g>
+      <g
+         transform="rotate(-115.37026,164.91644,923.502)"
+         id="g4188">
+        <g
+           id="g4180"
+           transform="matrix(0.5889462,-0.80513533,1.026439,0.75082702,-768.18569,138.80251)">
+          <path
+             sodipodi:open="true"
+             d="m -111.17202,894.70062 a 35.386318,14.173121 0 0 1 35.386323,-14.17312 35.386318,14.173121 0 0 1 35.386317,14.17312"
+             sodipodi:end="0"
+             sodipodi:start="3.1415927"
+             sodipodi:ry="14.173121"
+             sodipodi:rx="35.386318"
+             sodipodi:cy="894.70062"
+             sodipodi:cx="-75.785698"
+             sodipodi:type="arc"
+             id="path3352"
+             style="fill:none;fill-opacity:1;stroke:#ff9955;stroke-width:1.93803144;stroke-miterlimit:4;stroke-dasharray:none" />
+          <path
+             d="m -110.58533,895.17401 a 35.304707,7.0155969 0 0 1 35.304706,-7.0156 35.304707,7.0155969 0 0 1 35.304706,7.0156"
+             sodipodi:open="true"
+             sodipodi:end="0"
+             sodipodi:start="3.1415927"
+             sodipodi:ry="7.0155969"
+             sodipodi:rx="35.304707"
+             sodipodi:cy="895.17401"
+             sodipodi:cx="-75.280624"
+             sodipodi:type="arc"
+             id="path4154"
+             style="fill:none;fill-opacity:1;stroke:#ff9955;stroke-width:2.07385206;stroke-miterlimit:4;stroke-dasharray:none" />
+        </g>
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#ff9955;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect4186"
+           width="21.213203"
+           height="11.111678"
+           x="542.63922"
+           y="676.96442"
+           rx="8.6999998"
+           transform="rotate(31.953912)" />
+      </g>
+    </g>
+    <g
+       transform="matrix(2.1786676,1.8646883,-1.8646883,2.1786676,1697.3762,-1672.3707)"
+       id="layer1-4"
+       inkscape:label="Layer 1">
+      <path
+         id="path3336"
+         transform="translate(133.98868,744.9318)"
+         d="M 1.6637219,59.657333 C -5.6605379,98.417684 19.233762,138.07212 57.774674,146.47493 l -1.179687,-1.7832 C 24.704243,136.61877 2.3523901,107.94191 2.3098304,75.045245 2.3394224,71.372574 2.6796864,62.400104 3.4300274,58.963065 Z M 144.58323,94.802288 143.28132,93.298955 c -7.87442,32.155725 -33.56414,56.403415 -69.032036,53.685745 -2.546761,-0.007 -5.091359,-0.14902 -7.623047,-0.42578 l -1.435547,1.00976 c 37.46813,4.73312 71.15424,-15.91 79.39254,-52.766392 z"
+         style="fill:none;stroke:#ff9955;stroke-width:1.99999881;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccccccc" />
     </g>
   </g>
 </svg>
