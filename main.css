@@ -30,21 +30,21 @@ a:hover{
 }
 
 #bImage{
-	position:absolute; top:250px; left:90px;
+	position:absolute; top:270px; left:90px;
 }
 
 #aImage{
-	position:absolute; top:200px; left:590px;
+	position:absolute; top:220px; left:590px;
 }
 
 #bLink{
-	position:absolute; top:460px; left:215px;
+	position:absolute; top:480px; left:215px;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 	font-size: 25px;
 }
 
 #aLink{
-	position:absolute; top:520px; left:690px;
+	position:absolute; top:540px; left:690px;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 	font-size: 25px;
 }
